@@ -6,7 +6,7 @@
   
   
 ```shell
-cp scr\env_sample  src\.env
+cp scr/env_sample  src/.env
 ```
 
 * Install libs (recommend use a virtual env)
