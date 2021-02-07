@@ -6,7 +6,7 @@ import util
 
 
 def write():
-    util.write_title("- Ticket Médio de Julho/2020")
+    util.write_title("- Ticket Médio de Junho/2020")
 
     st.markdown("---")
 
@@ -25,7 +25,7 @@ def write():
     )
 
     fig.update_layout(
-        title="Ticket Médio das ligações por mídia (Julho 2020)",
+        title="Ticket Médio das ligações por mídia (Junho 2020)",
         yaxis_title="Mídia",
         xaxis_title="Ticket Médio",
     )
@@ -47,7 +47,7 @@ def write():
     )
 
     fig.update_layout(
-        title="Ticket Médio das vendas por mídia (Julho 2020)",
+        title="Ticket Médio das vendas por mídia (Junho 2020)",
         yaxis_title="Mídia",
         xaxis_title="Ticket Médio",
     )

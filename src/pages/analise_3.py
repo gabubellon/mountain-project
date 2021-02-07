@@ -6,7 +6,7 @@ import util
 
 
 def write():
-    util.write_title("- Receptivas de Julho/2020")
+    util.write_title("- Receptivas de Junho/2020")
     st.markdown("---")
 
     df_qtd_finalizadas = get_qtd_finalizadas()

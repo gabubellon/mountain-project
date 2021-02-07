@@ -6,7 +6,7 @@ import util
 
 
 def write():
-    util.write_title("- Ligações de Julho/2020")
+    util.write_title("- Ligações de Junho/2020")
     df_ligacoes = get_qtd_ligacoes_dias()
     st.markdown("---")
 
@@ -23,7 +23,7 @@ def write():
     )
 
     fig.update_layout(
-        title="Quantidade de ligações por dia (Julho 2020)",
+        title="Quantidade de ligações por dia (Junho 2020)",
         yaxis_title="Dias",
         xaxis_title="Quantidade",
         barmode="group",
@@ -47,7 +47,7 @@ def write():
     )
 
     fig.update_layout(
-        title="Quantidade de ligações por dia da semana (Julho 2020)",
+        title="Quantidade de ligações por dia da semana (Junho 2020)",
         yaxis_title="Dia da Semana",
         xaxis_title="Quantidade",
         barmode="group",
@@ -61,7 +61,7 @@ def write():
         df_hora_s, facet_col="dia_semana", facet_col_wrap=1, x="hora", y="total"
     )
     fig.update_layout(
-        title="Quantidade de ligações por dia da semana e hora (Julho 2020)",
+        title="Quantidade de ligações por dia da semana e hora (Junho 2020)",
         xaxis_title="Quantidade",
     )
     fig.update_xaxes(tickangle=0, title_font={"size": 20}, tickmode="linear")
@@ -74,7 +74,7 @@ def write():
     st.markdown("# Pontos de destaque")
     st.markdown(
         """
-        * Durante o mês de Julho tivemos um crescimento de acentuado das ligações ao decorrer do mês;
+        * Durante o mês de Junho tivemos um crescimento de acentuado das ligações ao decorrer do mês;
         * O pico atendimento ocorre do **dia 18**, todavia, nos final do mês tivemos um atendimento similar;
         * A concentração das ligações se deu em sua maioria entre as **11h as 13hs**;
         * E fora do período de pico, mantemos uma margem de **6k de ligações por hora**.
